@@ -17,6 +17,10 @@
             Console.WriteLine("\nExercise 3>");
             Rectangle r1 = new Rectangle(4.5f, 3.2f);
             Console.WriteLine($"The area of rectangle is: {r1.CalculateArea()}");
+
+            Console.WriteLine("\nExercise 4>");
+            Circle shape = new Circle(5);
+            Console.WriteLine($"The area of circle is : {shape.CalculateArea()}");
         }
     }
 
