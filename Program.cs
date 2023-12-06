@@ -1,4 +1,6 @@
-﻿namespace Assignment
+﻿using System.Globalization;
+
+namespace Assignment
 {
     internal class Program
     {
@@ -44,6 +46,10 @@
             Console.WriteLine($"The item popped is : {poppedItem}");
             Console.WriteLine("The updated stack is:");
             st1.DisplayStack();
+
+            Console.WriteLine("\nExercise 7>");
+            Calendar calendar = new Calendar();
+            calendar.PrintWeekdays();
         }
     }
 
