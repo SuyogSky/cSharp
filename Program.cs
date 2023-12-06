@@ -50,8 +50,12 @@ namespace Assignment
             Console.WriteLine("\nExercise 7>");
             Calendar calendar = new Calendar();
             calendar.PrintWeekdays();
+
+            Point2D pointA = new Point2D(3.0f, 4.0f);
+            Point2D pointB = new Point2D(6.0f, 8.0f);
+
+            DistanceCalculator d1 = new DistanceCalculator();
+            d1.CalculateDistance(pointA, pointB);
         }
     }
-
-
 }
