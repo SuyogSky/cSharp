@@ -21,6 +21,10 @@
             Console.WriteLine("\nExercise 4>");
             Circle shape = new Circle(5);
             Console.WriteLine($"The area of circle is : {shape.CalculateArea()}");
+
+            Console.WriteLine("\nExercise 5>");
+            Student s1 = new Student("Suyog Shakya", 21, "BIT");
+            s1.Introduce();
         }
     }
 
