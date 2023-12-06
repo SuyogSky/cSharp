@@ -25,6 +25,25 @@
             Console.WriteLine("\nExercise 5>");
             Student s1 = new Student("Suyog Shakya", 21, "BIT");
             s1.Introduce();
+
+            Console.WriteLine("\nExercise 6>");
+            Stack<int> st1 = new Stack<int>();
+            
+            st1.Push(1);
+            Console.WriteLine("The stack after pushing 1st item:");
+            st1.DisplayStack();
+            st1.Push(2);
+            st1.Push(3);
+            st1.Push(4);
+            st1.Push(5);
+            st1.Push(6);
+            Console.WriteLine("The stack after pushing few items:");
+            st1.DisplayStack();
+
+            int poppedItem = st1.Pop();
+            Console.WriteLine($"The item popped is : {poppedItem}");
+            Console.WriteLine("The updated stack is:");
+            st1.DisplayStack();
         }
     }
 
